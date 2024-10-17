@@ -1,0 +1,130 @@
+.container {
+    width: 1200px;
+    height: 250px;
+  background-color:  #fd7e14; /* Arka plan rengi */
+    position: relative; /* İçindeki öğeleri yerleştirmek için */
+}
+
+.image {
+    width: 25%; /* Resmi konteyner boyutuna uydur */
+    height: auto; /* Yükseklik oranını koru */
+    position: absolute; /* Konumlandırma için */
+    top: 10%;
+    left: 38%;
+    z-index: 1; /* Resmi üstte tut */
+    background-color: white;
+}
+
+.Yapilacaklar
+{
+    width: 25%; /* Resmi konteyner boyutuna uydur */
+    height: auto; /* Yükseklik oranını koru */
+    position: absolute; /* Konumlandırma için */
+    top: 36%;
+    left: 39%;
+    z-index: 1; /* Resmi üstte tut */
+   color: white;
+   font-size: 200%;
+}
+
+
+
+
+
+.add-box
+{
+    margin-bottom: 59px;
+}
+
+.lemon
+{
+    padding: 10px 15px;
+    background-color: #333; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenar kaldırma */
+    border-radius: 5px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleç değişimi */
+    width: 20%; 
+}
+
+input {
+   width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 5px; /* Kenar yuvarlama */
+    margin-top: 13%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenar kaldırma */
+    border-radius: 5px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleç değişimi */
+   
+}
+
+button:hover {
+    background-color: orange; /* Hover rengi */
+}
+
+ul {
+    list-style-type: none; /* Madde işareti kaldırma */
+    padding: 0; /* İç boşluk kaldırma */
+}
+
+li {
+    display: flex; /* Esnek yerleşim */
+    justify-content: space-between; /* Öğeleri yayma */
+    padding: 10px;
+    border: 1px solid #ccc; /* Kenar rengi */
+   
+    border-radius: 5px; /* Kenar yuvarlama */
+    transition: text-decoration 0.2s; /* Geçiş efekti */
+}
+
+li.completed {
+    text-decoration: line-through; /* Çizgi ekleme */
+    background-color: blue; /* Arka plan rengi mavi */
+    color: white; /* Yazı rengi beyaz */
+}
+
+li.completed button {
+    background-color: blue; /* Buton rengi mavi */
+}
+
+li button {
+    background: none; /* Arka planı kaldır */
+    border: none; /* Kenar kaldır */
+    color: red; /* Renk ayarı */
+    font-size: 16px; /* Boyut ayarı */
+    cursor: pointer; /* İmleç değişimi */
+    margin-left: 10px;
+
+}
+
+
+
+
+li.completed {
+    text-decoration: line-through; /* Çizgi ekleme */
+    background-color: #276678;; /* Arka plan rengi mavi */
+
+
+}
+
+
+li.completed button {
+    background-color: red  ; /* Buton rengi mavi */
+    
+
+}
+
+
+
+
+
+
+
